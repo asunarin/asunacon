@@ -1,0 +1,511 @@
+/*
+THEME NAME: Swan System
+THEME URI: http://www.svoo.org
+*/
+
+/*
+ * Reset.
+ */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+/*
+ * h1-h5. 
+ */
+h1{
+	font-size: 250%;
+	margin: 0 0 8px 0;
+}
+h2{
+	font-size: 180%;
+	margin: 0 0 8px 0;
+}
+h3{
+	font-size: 150%;
+	margin: 0 0 8px 0;
+}
+
+/*
+ * blocks
+ */
+p{
+	margin: 16px 0;
+}
+ol, ul{
+	margin-bottom: 16px;
+	margin-left: 16px;
+	padding:0;
+}
+ol ol, ol ul, ul ol, ul ul{
+	margin-bottom: 0;
+}
+ol{
+	list-style-type: decimal;
+}
+ul{
+	list-style-type: square;
+}
+li{
+	margin-left: 16px;
+	padding: 0;
+}
+dt{
+	font-weight:bold;
+}
+hr{
+	color: #ffffff;
+	background-color: #ffffff;
+	border-top: 1px dotted #bbbbbb;
+	margin-bottom: 16px;
+}
+blockquote{
+	color: #555;
+	border-left: 5px solid #ccc;
+	margin: 16px 16px;
+	padding: 0 16px;
+}
+small{
+	font-size: 9px;
+}
+pre{
+	background: #FFFFFF;
+	color: #000000;
+	font: normal 12px "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
+	margin: 16px 0;
+	overflow: auto;
+}
+sup{
+    margin-left: 2px;
+    vertical-align: top;
+	font-size:9px;
+    line-height:9px;
+}
+
+/*
+ * Tables. From	Gesso, after Boilerplate.
+ */
+table { border-collapse: separate; border-spacing: 0; }
+table { margin-bottom: 16px; }
+th { border-bottom: 2px solid #ddd; font-weight: bold; }
+td { border-bottom: 1px solid #ddd; }
+th,td { padding: 4px 0 4px 10px; }
+tfoot { font-style: italic; }
+caption { background: #ffc; }
+th{
+	background: #eee;
+}
+
+body{
+	background: #fff;
+	color: #130c0e;
+	font-size: 13px;
+	line-height: 1.5;
+	font-family: Georgia,Times,"Times New Roman",serif;
+}
+a:link, a:visited{
+	color: #464547;
+	text-decoration:none;
+}
+a:hover, a:active{
+	text-decoration:underline;
+}
+input, textarea{
+	font-size: 12px;
+	font-family: inherit;
+}
+
+/*
+ * common styles
+ */
+#container{
+	margin: 0 auto;
+	padding: 0;
+}
+#content-wrapper{
+	margin: 0 auto;
+	width:840px;
+	background: #fff;
+	padding-top:36px;
+}
+#content{
+	padding: 0;
+	width: 75%;
+    float:left;
+}
+#content-inner{
+    padding-right:18px;
+}
+#content-wide{
+	width:auto;
+	margin:0;
+	padding:0;
+}
+
+/* header */
+#header{
+	margin: 0;
+	padding: 0;
+	background-color:#130c0e;
+}
+#header #header-inner{
+	margin: 0 auto;
+	width:840px;
+}
+#header h1{
+	display:inline;
+	font-size:36px;
+	font-weight:bold;
+	line-height:80px;
+	margin-right:16px;
+}
+#header h1 a:link, #header h1 a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+#header h1 a:hover, #header h1 a:active{
+	text-decoration: none;
+}
+#header h2{
+	display:inline;
+	font-size:13px;
+	vertical-align:text-baseline;
+	color:#999;
+}
+
+/*
+ * sidebar
+ */
+ #sidebar{
+	text-align: left;
+	width: 25%;
+    float:right;
+}
+#sidebar-inner{
+    padding-left:18px;
+}
+#sidebar h2{
+	font-size: 16px;
+	font-weight:bold;
+	margin: 16px 0 0;
+	letter-spacing: normal;
+}
+#sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar li{
+	margin: 0;
+	padding: 1px 0;
+}
+#sidebar ul ul ul{
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul li li li{
+	list-style-type: square;
+	margin-left: 16px;
+}
+
+/*
+ * footer
+ */
+#footer{
+	border-top: 1px solid #ccc;
+	clear: both;
+	margin: 36px 0 16px 0;
+	padding: 16px 0 0 0;
+}
+#footer hr{
+	display: none;
+}
+#footer p{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 40%;
+}
+#footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	width: 100%;
+}
+#footer li{
+	text-align:center;
+	margin: 0;
+	padding: 0 0 8px 0;
+}
+
+/*
+ * common styles
+ */
+.hidden{
+	display: none;
+}
+.clear{
+	clear: both;
+}
+.search-title{
+	font-size: 180%;
+	line-height:1;
+	margin: 0 0 8px;
+	border-bottom:1px #ddd solid;
+	padding-bottom:4px;
+	margin-bottom:16px;
+}
+.search-title span.search-subtitle{
+	font-weight: bold;
+}
+.tags-content{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:20px;
+}
+.tags-content li{
+	display:inline;
+    line-height:200%;
+    margin:0 8px 0 0;
+}
+.archives-block ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:16px;
+}
+.archives-block ul li{
+	margin:0 8px 0 0;
+	line-height:200%;
+	display:inline-block;
+	_display:inline;
+}
+
+/*
+ * entry
+ */
+.hentry{
+	margin: 0 0 36px 0;
+}
+.hentry .entry-title{
+	clear: both;
+	line-height: 100%;
+	margin: 0;
+}
+.hentry page-title{
+	margin: 0 0 4px;
+}
+.hentry .entry-title-search{
+	clear: both;
+	font-size: 18px;
+	line-height: 100%;
+	margin: 0;
+}
+.hentry .entry-content{
+}
+.hentry .entry-content a:link, .hentry .entry-content a:visited{
+	text-decoration: underline;
+}
+.hentry .entry-content .readmore{
+	text-align:right;
+	font-style:italic;
+}
+.hentry .entry-content .tags{
+}
+.hentry .entry-content-search{
+   padding: 8px 0;
+   color:#666;
+   border-bottom:1px #ddd dashed;
+}
+.hentry .posted{
+	color: #999;
+	font-size: 12px;
+	margin: 4px 0 0 0;
+}
+.hentry .posted a:link, .hentry .posted a:visited{
+	color: #999;
+	text-decoration:underline;
+}
+.hentry .meta{
+	border-top: 1px dashed #ddd;
+	clear: both;
+	list-style-type: none;
+	margin: 4px 0 0 0;
+	padding: 4px 0;
+	text-align:right;
+}
+
+/*
+ * comments
+ */
+#comments{
+	clear: both;
+}
+#comments ol.commentlist{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#comments li.comment, 
+#comments li.trackback, 
+#comments li.pingback{
+	border: 1px solid #ddd;
+	list-style-type: none;
+	margin: 0 0 16px 0;
+	padding:16px;
+}
+#comments li.comment li.comment{
+	border: 1px dashed #ddd;
+	list-style-type: none;
+	margin: 16px 0 0 0;
+	padding:16px;
+	background-color:#fafafa;
+}
+#comments .comment-author cite{
+	font-size: 16px;
+	font-weight:bold;
+	margin-right:8px;
+}
+#comments .comment-author .avatar{
+	background: #fff;
+	clear:both;
+	float: right;
+	margin: 0;
+}
+#comments .comment-awaiting-moderation{
+	color:#999;
+}
+#comments .replaylink{
+	text-align:right;
+	font-size:12px;
+}
+#comments .replaylink a{
+	color:#999;
+}
+#comments .posted{
+	color: #999;
+	font-size: 12px;
+}
+
+/*
+ * comment form
+ */
+#commentform label{
+	font-weight: bold;
+	display:block;
+}
+#commentform input[type=text]{
+	width: 50%;
+}
+#commentform textarea{
+	height: 150px;
+	width: 80%;
+}
+#commentform .sw_replay_preview{
+	border-top:2px #ddd solid;
+	border-bottom:2px #ddd solid;
+	padding:8px 2px;
+	margin:4px 0;
+	background-color:#fafafa;
+	width:80%;
+	font-size:12px;
+	color:gray;
+}
+#commentform .sw_replay_preview strong{
+	font-weight:bold;
+	display:block;
+}
+#commentform .sw_replay_preview strong a{
+	color:gray;
+}
+#commentform .sw_replay_preview p{
+	margin:0;
+}
+#commentform .sw_replay_preview div{
+	text-align:right;
+}
+
+/* Swan default styles. */
+.sw_menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    height:25px;
+}
+.sw_menu li{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.sw_menu li a{
+	display:block;
+	padding:0px 20px;
+	background-color:#fafafa;
+	text-decoration:none;
+	color:#333;
+    line-height:24px;
+    border:1px #fafafa solid;
+    margin-right:10px;
+}
+.sw_menu li a.sw_menu_current{
+	background-color:#fff;
+	border-bottom:1px #fff solid;
+}
+
+.sw_searchform input[type=text]{
+	width:50%;
+}
+.sw_searchform label{
+	display:none;
+}
+
+.sw_navigation{
+	display: block;
+	margin-bottom: 36px;
+	text-align: center;
+	height:24px;
+}
+.sw_navigation_prev{
+	float: left;
+}
+.sw_navigation_next{
+	float:right;
+}
+
+.sw_recent_posts li,
+.sw_recent_comments li{
+    border-bottom:1px #ccc dotted;
+	padding:4px 0 !important;
+}
+
+.sw_tags_list li{
+    display:inline;
+    font-size:11px;
+    line-height:170%;
+    margin:0 8px 0 0 !important;;
+}
+
+.sw_pages_list{
+	float:right;
+	margin:0 0 32px 32px;
+	border:1px dotted #ddd;
+	padding:16px;
+	list-style-type: none;
+	min-width:120px;
+	background-color:#fafafa;
+}
+.sw_pages_list li{
+	margin:0;
+	padding:0;
+	line-height:150%;
+}
