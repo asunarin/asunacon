@@ -1,0 +1,1 @@
+<?php if(!defined("INC_ROOT")){die("Forbidden Access");};?>a:2:{s:4:"name";s:4:"demo";s:8:"password";s:32:"fe01ce2a7fbac8fafaed7c982a04e229";}

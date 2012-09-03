@@ -1,0 +1,32 @@
+body{ font-size:12px;}
+.yellow_bg02{ background:url(../images/yellow02.gif) top repeat-x; height:5px;}
+.yellow_bg04{ background:url(../images/yellow04.gif) left repeat-y; width:6px;}
+.yellow_bg05{ background:url(../images/yellow05.gif) right repeat-y; width:7px;}
+.yellow_bg07{ background:url(../images/yellow07.gif) bottom repeat-x; height:7px;}
+.yellow_cont{ font-size:12px; padding:5px; background-color:#fffcc7; }
+.red_bg02{ background:url(../images/red02.gif) top repeat-x; height:5px;}
+.red_bg04{ background:url(../images/red04.gif) left repeat-y; width:6px; }
+.red_bg05{ background:url(../images/red05.gif) right repeat-y; width:7px;}
+.red_bg07{ background:url(../images/red07.gif) bottom repeat-x; height:7px;  }
+.red_cont{ font-size:12px; padding:5px; background-color:#fff4ed; }
+.title_div{ width:1px; height:1px; position:relative;}
+.title_left{ position:absolute; top:8px; left:-4px;}
+.title{ cursor:help;}
+#titleC{max-width:200px;_width:200px;}
+.tuopiao img{ cursor:pointer; margin:0px;}
+#text{ font-size:12px; margin:2px;}
+.biaoche{ cursor:pointer}
+#biaochey{ width:30px; height:210px; background:url(../images/biaoche_bg.gif) no-repeat left; position:absolute;}
+#biaochey_left{ width:13px; height:10px; background:url(../images/biaoche_left.gif) no-repeat left; position: absolute; left:14px; cursor:pointer;z-index:100 }
+#biaochey_close{position:absolute;bottom:-9px;cursor:pointer; background:url(../images/biaoche_close.gif) no-repeat left; width:30px; height:14px; }
+#biaochex{ width:210px; height:30px; background:url(../images/biaoche_bg_thwart.gif) no-repeat left; position:absolute;}
+#biaochex_left{ width:10px; height:13px; background:url(../images/biaoche_left_thwart.gif) no-repeat left; position:absolute; top:5px; cursor:pointer;z-index:100 }
+#biaochex_close{position:absolute;right:-9px;cursor:pointer; background:url(../images/biaoche_close_thwart.gif) no-repeat left; width:14px; height:30px; }
+/* Download by http://sc.xueit.com */
+.hide{ display:none}
+.input_text_link{ background:url(../images/input_bg.gif) top repeat-x; line-height:17px; height:17px; border-left:#89a 1px solid; border-right:#abc 1px solid; border-top:#89a 1px solid; border-bottom:#abc 1px solid;}
+.input_text_hover{ background:url(../images/input_bg.gif) top repeat-x; line-height:17px; height:17px; border:#f80 1px solid;  }
+.input_textarea_link{ width:90%; background:url(../images/textarea_bg.gif) top repeat-x;  height:54px; border-left:#89a 1px solid; border-right:#abc 1px solid; border-top:#89a 1px solid; border-bottom:#abc 1px solid;}
+.input_textarea_hover{ width:90%;background:url(../images/textarea_bg.gif) top repeat-x;  height:54px; border:#f80 1px solid;  }
+.h6show{ background:url(../images/sort_up.gif) right no-repeat; padding:0px 10px 0px 0px; display:inline; cursor:pointer}
+.h6hide{ background:url(../images/sort_down.gif) right no-repeat; padding:0px 10px 0px 0px; display:inline;cursor:pointer}

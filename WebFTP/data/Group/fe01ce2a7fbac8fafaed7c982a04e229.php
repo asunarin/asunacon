@@ -1,0 +1,1 @@
+<?php if(!defined("INC_ROOT")){die("Forbidden Access");};?>a:2:{s:4:"name";s:4:"demo";s:4:"auth";a:2:{i:0;s:4:"list";i:1;s:9:"imageview";}}
